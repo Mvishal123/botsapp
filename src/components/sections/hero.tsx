@@ -32,6 +32,7 @@ const Hero = () => {
           className="z-10 h-[400px]  w-[400px] md:h-[500px] md:w-[500px] moveable"
         />
         <img
+          loading="lazy"
           src={swirl}
           alt="swirl"
           width={700}
@@ -39,6 +40,7 @@ const Hero = () => {
           className="absolute swirl"
         />
         <img
+          loading="lazy"
           src={gradient1}
           alt="swirl"
           width={1100}
