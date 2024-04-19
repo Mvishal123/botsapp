@@ -2,7 +2,7 @@ import { bot1, bot2, dash, gradient2 } from "../../assets";
 
 const About = () => {
   return (
-    <section className="max-sm:py-12">
+    <section className="max-sm:py-12" id="about">
       <div className="section-spacing">
         <h1 className="text-4xl md:text-[40px] font-bold text-white">
           Your personal{" "}
@@ -91,7 +91,9 @@ const About = () => {
         <div className="mt-20 flex justify-center">
           <button className="px-24 py-6 border border-white bg-transparent text-white  dark:border-white relative group transition duration-200 rounded">
             <div className="absolute -bottom-2 -right-2 bg-brand/green-dark h-full w-full -z-10 group-hover:bottom-0 group-hover:right-0 transition-all duration-200 rounded" />
-            <span className="relative font-bold font-bolotta">Try for free</span>
+            <span className="relative font-bold font-bolotta">
+              Try for free
+            </span>
           </button>
         </div>
       </div>

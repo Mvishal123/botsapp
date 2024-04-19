@@ -12,7 +12,7 @@ import bot1 from "/images/bot1.png";
 import bot2 from "/images/bot2.png";
 import whatsapparrow from "/images/whatsapparrow.png";
 import whastapp_chat1 from "/images/whatsapp_chat1.png";
-
+import custom_cursor from "/images/custom-cursor.png";
 export {
   grainy,
   swirl,
@@ -26,4 +26,5 @@ export {
   waves,
   dash,
   gradient2,
+  custom_cursor
 };
