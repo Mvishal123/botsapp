@@ -7,7 +7,7 @@ interface PhoneProps {
 }
 const Phone = ({ chatImg, className = "" }: PhoneProps) => {
   return (
-    <div className={`relative overflow-hidden ${className}`}>
+    <div className={`relative overflow-hidden ${className} z-10`}>
       <img
         src={phone}
         alt="phone"

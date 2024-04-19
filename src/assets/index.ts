@@ -2,6 +2,9 @@ import grainy from "/svg/grainy.svg";
 import swirl from "/svg/swirl.svg";
 import gradient1 from "/svg/gradient1.svg";
 import phone from "/svg/phone.svg";
+import waves from "/svg/waves.svg";
+import dash from "/svg/dash.svg";
+import gradient2 from "/svg/gradient2.svg";
 
 // images
 import mainbot from "/images/mainbot.png";
@@ -20,4 +23,7 @@ export {
   whatsapparrow,
   whastapp_chat1,
   phone,
+  waves,
+  dash,
+  gradient2,
 };
