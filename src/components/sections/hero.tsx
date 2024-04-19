@@ -54,7 +54,7 @@ const Hero = () => {
             alt="arrow"
             width={500}
             height={500}
-            className="w-20 h-20 rotate-[32deg]"
+            className="w-20 h-20 rotate-[32deg] hover:scale-110 transition-all duration-600 ease-in-out"
           />
         </Link>
       </div>

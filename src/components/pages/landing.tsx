@@ -1,11 +1,11 @@
 import Hero from "../sections/hero";
-import Page from "../sections/page2";
+import LandingCopy1 from "../sections/landing-copy-1";
 
 const Landing = () => {
   return (
     <div>
       <Hero />
-      <Page />
+      <LandingCopy1 />
     </div>
   );
 };
