@@ -2,13 +2,13 @@ import { NAV_LINKS } from "../constants";
 
 const Header = () => {
   return (
-    <header className="section-spacing w-full flex py-6  z-50 justify-between items-center">
+    <header className="section-spacing w-full flex py-6  z-50 justify-between items-center overflow-hidden">
       <div>
         <h1 className="text-brand/green-dark text-3xl font-bolotta bg-transparent">
           Botsapp
         </h1>
       </div>
-      <div className="flex items-center gap-10">
+      <div className="flex items-center gap-10 max-md:hidden">
         <nav className="flex items-center gap-6">
           {NAV_LINKS.map((link, index) => (
             <a
