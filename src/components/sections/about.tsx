@@ -2,7 +2,7 @@ import { bot1, bot2, dash, gradient2 } from "../../assets";
 
 const About = () => {
   return (
-    <section className="max-sm:py-12" id="about">
+    <section className="max-sm:py-20" id="about">
       <div className="section-spacing">
         <h1 className="text-4xl md:text-[40px] font-bold text-white">
           Your personal{" "}

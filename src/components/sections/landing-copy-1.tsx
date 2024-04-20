@@ -20,8 +20,8 @@ const LandingCopy1 = () => {
           <Phone chatImg={whastapp_chat1} />
         </div>
       </div>
-      <div className="md:-translate-y-12 lg:-translate-y-20 -z-50">
-        <img src={waves} alt="waves" className="w-full lg:w-auto"/>
+      <div className="max-sm:translate-y-14 md:-translate-y-12 lg:-translate-y-20 -z-50">
+        <img src={waves} alt="waves" className="w-full lg:w-auto" />
       </div>
     </section>
   );
